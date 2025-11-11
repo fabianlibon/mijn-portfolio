@@ -1,0 +1,107 @@
+html, body {
+  box-sizing: border-box;
+  background-color: #383D40;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif,;
+  color: #dacaca;
+  height: 100%;
+  width: 100%;
+  
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: 600;
+  color: #ff6600; /* of een oranje tint uit je logo */
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6); /* subtiele diepte */
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+h1:hover {
+  color: #ff8533; /* iets lichtere tint bij hover */
+  text-shadow: 2px 2px 12px rgba(255, 102, 0, 0.6);
+}
+
+.nav-link {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    color: #dacaca !important;
+    transition: color 0.3s ease;
+    letter-spacing: 2px;
+}
+
+.nav-item {
+    margin-right: 40px;
+}
+
+.nav-link:hover {
+    color: #ff6600 !important;
+}
+
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.text {
+  flex: 1;
+  color: #dacaca;
+}
+
+.text h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 3rem;
+  font-weight: 600;
+  color: #e0d5d5;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.text p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+figure.image {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+figure.image img {
+  max-width: 80%;
+  border-radius: 15px;
+  border-color: #ff6600;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+figure.image figcaption {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #b5b5b5;
+  font-style: italic;
+}
+
+.image img:hover {
+  transform: scale(1.03);
+  transition: 0.3s ease;
+}
+
+.black {
+  color:#0D0D0D;
+}
+
+.text_color {
+  color:#dacaca;
+}
