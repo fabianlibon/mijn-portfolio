@@ -1,13 +1,9 @@
-html, body {
+html,
+body {
   box-sizing: border-box;
   background-color: #383D40;
-  margin: 0;
-  padding: 0;
-  font-family: 'Poppins', sans-serif,;
+  font-family: 'Poppins', sans-serif, ;
   color: #dacaca;
-  height: 100%;
-  width: 100%;
-  
 }
 
 h1 {
@@ -17,7 +13,7 @@ h1 {
   color: #ff6600;
   letter-spacing: 2px;
   text-transform: uppercase;
-  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6); 
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
   transition: color 0.3s ease, text-shadow 0.3s ease;
 }
 
@@ -27,28 +23,26 @@ h1:hover {
 }
 
 .nav-link {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.5rem;
-    color: #dacaca !important;
-    transition: color 0.3s ease;
-    letter-spacing: 2px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+  color: #dacaca;
+  transition: color 0.3s ease;
+  letter-spacing: 2px;
 }
 
 .nav-item {
-    margin-right: 40px;
+  margin-right: 40px;
 }
 
 .nav-link:hover {
-    color: #ff6600 !important;
+  color: #ff6600;
 }
-
 
 .content {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   gap: 50px;
-  max-width: 1000px;
+  max-width: 1500px;
   margin: 0 auto;
   padding: 40px;
 }
@@ -99,9 +93,60 @@ figure.image figcaption {
 }
 
 .black {
-  color:#0D0D0D;
+  color: #0D0D0D;
 }
 
 .text_color {
-  color:#dacaca;
+  color: #dacaca;
+}
+
+button.color {
+  color: #ff6600;
+}
+
+footer {
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+}
+
+nav {
+  border-bottom: 5px solid black;
+  border-top: 5px solid black;
+}
+
+.aside-panel {
+  position: fixed;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  width: 260px;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  font-family: system-ui, sans-serif;
+  z-index: 9999;
+}
+
+.aside-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.aside-section {
+  margin-bottom: 16px;
+}
+
+.aside-section span {
+  font-weight: 600;
+}
+
+.aside-link {
+  font-family: 'Poppins', sans-serif;
+  color: #dacaca;
+  transition: color 0.3s ease;
+}
+
+.aside-link:hover {
+  color: #ff6600;
 }
