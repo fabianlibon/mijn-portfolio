@@ -150,3 +150,9 @@ nav {
 .aside-link:hover {
   color: #ff6600;
 }
+
+@media (max-width: 1600px) {
+    aside {
+        display: none;
+    }
+}
